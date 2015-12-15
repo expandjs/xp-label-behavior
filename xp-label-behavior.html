@@ -84,6 +84,21 @@ A behavior used to improve label capabilities on a custom element.
                 reflectToAttribute: true,
                 type: Boolean,
                 value: false
+            },
+
+            /**
+             * If set to true, the element is hidden.
+             *
+             * @attribute hidden
+             * @type boolean
+             * @default false
+             * @notifies
+             */
+            hidden: {
+                notify: true,
+                reflectToAttribute: true,
+                type: Boolean,
+                value: false
             }
         },
 
